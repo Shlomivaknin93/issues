@@ -9,3 +9,7 @@ RUN chown -R www-data:www-data /var/www/html
 
 # הפעלת השרת Apache
 CMD ["apache2-foreground"]
+
+# התקנת sendmail
+RUN apt-get update && apt-get install -y sendmail
+
