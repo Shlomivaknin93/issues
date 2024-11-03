@@ -13,3 +13,4 @@ CMD ["apache2-foreground"]
 # התקנת sendmail
 RUN apt-get update && apt-get install -y sendmail
 
+
